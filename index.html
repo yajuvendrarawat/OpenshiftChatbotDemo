@@ -6,10 +6,10 @@
 
 <body>
   <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"; //might need to replace based on chatbot link found in embed
     Chatbot.init({
-      chatflowid: "6ef60869-af77-4650-a7f3-5280599a10af",
-      apiHost: "https://flowise-flowise.apps.ky4n7bsb.eastus.aroapp.io",
+      chatflowid: "replace it here", //replace with Chatbot chatflow ID found in Embed under Flowise
+      apiHost: "replace it here", //replace with apihost found in Embed under Flowise
       chatflowConfig: {},
       theme: {
         button: {
@@ -92,7 +92,7 @@
   <script>
     function sendPostRequest() {
       const url =
-        "https://flowise-flowise.apps.ky4n7bsb.eastus.aroapp.io/api/v1/prediction/6ef60869-af77-4650-a7f3-5280599a10af"; // Replace with your API endpoint
+        "replace it here"; // Replace with your API endpoint // replace with API_URL found in Python embedding in Flowise
       const fileInput = document.getElementById("pdfFileInput");
       const file = fileInput.files[0];
       const loadingContainer = document.querySelector(".loading-container");
@@ -109,7 +109,7 @@
 
       async function query(formData) {
         const response = await fetch(
-          "https://flowise-flowise.apps.ky4n7bsb.eastus.aroapp.io/api/v1/prediction/6ef60869-af77-4650-a7f3-5280599a10af",
+          "replace it here", // Replace with your API endpoint // replace with API_URL found in Python embedding in Flowise
           {
             method: "POST",
             body: formData,
