@@ -1,0 +1,7 @@
+FROM docker.io/flowiseai/flowise:latest
+
+USER 0
+
+EXPOSE 3000
+
+ENTRYPOINT ["flowise","start"]
