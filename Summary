@@ -1,4 +1,10 @@
-Project is an example of how we can create a generative AI chatbot and run it on openshift. It can be modified for multiple use cases.
+This project is an example of how we can create a generative AI chatbot and run it on openshift. It can be modified for multiple use cases.
 Please follow the README document step by step for how it works.
 
+We expanded on the work provided by Bobby Johns from his article https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-1-5ca7bf696259 to display how Generative AI use cases can be ran on an Openshift platform.
+This demo is not exclusive to ARO, but for the purpose of our use case that is the Openshift dedicated cluster that we have selected. If there are any queries regarding this implementation please feel free to reach out to us.
+
 Created by Faruq Zafir and Rachel Ma
+
+fzafir@redhat.com
+rama@redhat.com
