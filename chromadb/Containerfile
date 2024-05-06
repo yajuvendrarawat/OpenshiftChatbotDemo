@@ -29,7 +29,7 @@ WORKDIR /chroma
 
 COPY --from=builder /install /usr/local
 COPY --from=builder /chroma-git /chroma
-COPY ./bin/container_entrypoint.sh /container_entrypoint.sh
+COPY ./container_entrypoint.sh /container_entrypoint.sh
 
 # Ensure the entrypoint script is executable
 RUN chmod +x /container_entrypoint.sh
